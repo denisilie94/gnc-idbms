@@ -97,11 +97,16 @@ The method built on here was introduced in
 > D. C. Ilie-Ablachim and B. Dumitrescu, "Incoherent frames design and dictionary
 > learning using a distance barrier", *Signal Processing*, 2023.
 
-and the TAAP baseline is due to Massion and Massart, "Targeted accelerated
-alternating projections", SampTA 2025.
+## TAAP
 
-## Funding
+The TAAP baseline is not ours. It is adapted from the authors' reference
+implementation, released at
 
-This work is supported by a grant of the Ministry of Research, Innovation and
-Digitization, CNCS – UEFISCDI, project number PN-III-P4-PCE-2021-0154, within
-PNCDI III.
+> https://github.com/bastmas6/taap
+
+by Bastien Massion and Estelle Massart (UCLouvain), "Grassmannian Frame
+Computation via Accelerated Alternating Projections", SampTA 2025,
+https://openreview.net/pdf?id=vng6moOJ9L. `taap.m` and `taap_bound.m` are a
+MATLAB port of their Python code, cross-validated against it to about 1e-13 on
+a shared initial frame. Please cite their work, and follow the terms of their
+repository, if you use these two files.
