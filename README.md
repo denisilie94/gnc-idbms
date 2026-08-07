@@ -88,7 +88,7 @@ If you use this code, or build on it, please cite our work:
              multi-similarity barrier},
   journal = {},
   year    = {},
-  note    = {Fill in the venue and year once the paper appears}
+  note    = {}
 }
 ```
 
