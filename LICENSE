@@ -1,0 +1,60 @@
+MIT License
+
+Copyright (c) 2026 Denis C. Ilie-Ablachim and Bogdan Dumitrescu
+National University of Science and Technology Politehnica Bucharest
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+===============================================================================
+THIRD-PARTY COMPONENTS
+===============================================================================
+
+The MIT grant above covers the files written by the authors of this repository.
+It does NOT cover the files listed below, which implement methods published by
+others and remain subject to their own terms. If you redistribute this
+repository, or reuse these files, check their terms first.
+
+-------------------------------------------------------------------------------
+taap.m, taap_bound.m
+-------------------------------------------------------------------------------
+MATLAB port of the reference implementation of Targeted Accelerated Alternating
+Projections by Bastien Massion and Estelle Massart (UCLouvain), released at
+
+    https://github.com/bastmas6/taap
+
+and described in "Grassmannian Frame Computation via Accelerated Alternating
+Projections", SampTA 2025, https://openreview.net/pdf?id=vng6moOJ9L .
+
+At the time of writing, that repository states no licence, so no permissions
+are granted by its authors by default. These two files are included here only
+so that the TAAP baseline of our comparison can be reproduced. Please cite the
+authors' paper, and contact them regarding any reuse or redistribution beyond
+that.
+
+-------------------------------------------------------------------------------
+getBound.m
+-------------------------------------------------------------------------------
+Copyright (c) 2019 Bashar Tahir, Institute of Telecommunications, TU Wien
+(bashar.tahir@tuwien.ac.at, www.nt.tuwien.ac.at). Implements the coherence
+lower bound of B. Tahir, S. Schwarz and M. Rupp, "Constructing Grassmannian
+Frames by an Iterative Collision-Based Packing", IEEE Signal Processing
+Letters, 2019, DOI 10.1109/LSP.2019.2919391. The file carries the author's
+copyright notice and no explicit licence; it is redistributed here unmodified
+and with that notice intact.

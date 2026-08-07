@@ -72,6 +72,14 @@ or thread counts: the solver is chaotic, so the different summation order of a
 different BLAS reduction is amplified by the bisection. The ordering of the
 methods is unaffected.
 
+## Licence
+
+MIT for the files written by us — see `LICENSE`. Two of the twelve files are
+not ours and are not covered by that grant: `taap.m` and `taap_bound.m` are a
+port of the TAAP authors' code, whose repository states no licence, and
+`getBound.m` carries a TU Wien copyright notice. The `LICENSE` file sets out
+both. Check their terms before reusing or redistributing them.
+
 ## Citing
 
 If you use this code, or build on it, please cite our work:
